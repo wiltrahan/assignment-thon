@@ -19,7 +19,7 @@ rentals = {
     available: true
   },
   sports: {
-    model: 'sports',
+    model: 'sportscar',
     cost: 99,
     numAvail: 0,
     available: false
@@ -29,7 +29,7 @@ rentals = {
       console.log("The " + type.model + " is available to rent! The cost is " + type.cost + " dollars, and there are " + type.numAvail + " available.");
 
     } else {
-      console.log("Sorry, this model is not available.");
+      console.log("Sorry, the " + type.model + " is not available.");
     }
   }
 };
@@ -37,5 +37,6 @@ rentals = {
 rentals.request(rentals.sedan);
 rentals.request(rentals.suv);
 rentals.request(rentals.sports);
+
 
 
