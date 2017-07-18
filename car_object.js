@@ -23,7 +23,7 @@ rentals = {
   },
   request: function(type) {
     if (type.available === true) {
-      console.log("This vehicle is available to rent, the cost is " + type.cost + " dollars.");
+      console.log("This vehicle is available to rent! The cost is " + type.cost + " dollars and there are " + type.numAvail + " available.");
     } else {
       console.log("Sorry, this model is not available.");
     }
