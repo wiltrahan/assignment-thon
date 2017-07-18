@@ -34,9 +34,13 @@ rentals = {
   }
 };
 
-rentals.request(rentals.sedan);
-rentals.request(rentals.suv);
-rentals.request(rentals.sports);
+var sedan = rentals.sedan;
+var suv = rentals.suv;
+var sports = rentals.sports;
+
+rentals.request(sedan);
+rentals.request(suv);
+rentals.request(sports);
 
 
 
