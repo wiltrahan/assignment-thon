@@ -7,19 +7,19 @@
 
 rentals = {
   sedan: {
-    model: 'sedan',
+    model: 'Honda Accord',
     cost: 59,
     numAvail: 5,
     available: true,
   },
   suv: {
-    model: 'suv',
+    model: 'Jeep Cherokee',
     cost: 79,
     numAvail: 4,
     available: true
   },
   sports: {
-    model: 'sportscar',
+    model: 'Infinity G35',
     cost: 99,
     numAvail: 0,
     available: false
