@@ -5,7 +5,7 @@
 // total num avail for each category
 // ablility to submit a rental request
 
-rentals = {
+var rentals = {
   sedan: {
     model: 'Honda Accord',
     cost: 59,
@@ -41,6 +41,4 @@ var sports = rentals.sports;
 rentals.request(sedan);
 rentals.request(suv);
 rentals.request(sports);
-
-
 
